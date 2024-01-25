@@ -17,7 +17,7 @@ const Memos = ({ state }) => {
         <div>
           <p>{memo.name}</p>
           <p>{memo.message}</p>
-          <p>{new Date(memo.timestamp * 1000).toLocaleString()}</p>
+          <p>{memo.timestamp}</p>
           <p>{memo.name}</p>
         </div>;
       })}
