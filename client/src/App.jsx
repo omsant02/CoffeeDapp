@@ -14,7 +14,7 @@ function App() {
   const [account, setAccount] = useState("Not connected");
   useEffect(() => {
     const template = async () => {
-      const contractAddres = "0x1f4DA858bC3ed56aA1397bAB0c6d72D543B11337";
+      const contractAddres = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
       const contractABI = abi.abi;
       //Metamask part
       //1. In order do transactions on goerli testnet
